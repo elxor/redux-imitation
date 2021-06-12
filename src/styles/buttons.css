@@ -1,0 +1,45 @@
+.button {
+    padding: 5px 15px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+}
+
+.counter-buttons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.add {
+    background-color: #007bff;
+    margin-right: 5px;
+}
+.add:hover {
+    background-color: #0069d9;
+}
+
+.sub {
+    background-color: #dc3545;
+}
+.sub:hover {
+    background-color: #c82333;
+}
+
+.fetch {
+    background-color: #28a745;
+    margin-bottom: 10px;
+}
+.fetch:hover {
+    background-color: #218838;
+}
+.fetch:disabled {
+    background-color: #bdc3c7;
+    pointer-events: none;
+}
+
+.change-theme {
+    background-color: #17a2b8;
+}
+.change-theme:hover {
+    background-color: #138496;
+}
